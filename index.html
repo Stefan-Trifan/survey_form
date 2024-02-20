@@ -4,72 +4,75 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registration Form</title>
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="styles.css" />
 </head>
-<body>
-    <section class="section-hero">
-        <div class="container">
-            <div class="row">
-                <h1 id="title">Survey Form</h1>
-                <p id="description">Rellena el formulario</p>
-            </div>
-        </div>
-    </section>
+<body class="bg-griscla">
     <section class="form">
-        <div class="container">
-            <div class="row">
-                <form id="survey-form">
-                    <label id="name-label" for="name"> Introduce tu Nombre 
-                        <input type="text" id="name" placeholder="Introduce tu nombre" required>
-                    </label>
-                    <label id="email-label" for="email"> Introduce tu email 
-                        <input type="email" id="email" placeholder="Introduce tu correo" required>
-                    </label>
-        
-                    <label id="number-label" for="number"> Introduce tu edad 
-                        <input type="number" id="number" min="18" max="120" placeholder="Introduce tu edad" required>
-                    </label>
-        
-                    <label id="jornada" for="dropdown"> ¿Que tipo de jornada prefieres? 
-                        <select id="dropdown">Mañanas</option>
-                            <option>Tardes</option>
-                            <option>Completa</option>
-                        </select>
-                    </label>
-        
-                    <p>¿Tienes disponibilidad de incorporación inmediata?</p>
-        
-                    <label for="incorporacion_si">
-                        <input id="incorporacion_si" type="radio" name="incorporacion" value="si" class="d-inline">Si 
-                    </label>
-        
-                    <label for="insocporacion_no">
-                        <input id="insocporacion_no" type="radio" name="incorporacion" value="no" class="d-inline">No 
-                    </label>
-        
-                    <p>¿Que tecnologías conoces?</p>
-        
-                    <label for="html">
-                        <input id="html" value="html" type="checkbox" name="tecnologias" class="d-inline"> HTML 
-                    </label>
-        
-                    <label for="css">
-                        <input id="css" value="html" type="checkbox" name="tecnologias" class="d-inline"> CSS 
-                    </label>
-        
-                    <label for="js">
-                        <input id="js" value="html" type="checkbox" name="tecnologias" class="d-inline"> JavaScript 
-                    </label>
-        
-                    <label for="otros">Otros: 
-                        <textarea class="d-block" id="otros" name="otros">
-                        </textarea>
-                    </label>
-        
-                    <input type="submit" id="submit">  
-                </form>
+        <header class="form__header">
+            <div class="container bg-white">
+                <div class="row text-center">
+                    <h1 id="title">Survey Form</h1>
+                    <p id="description">Rellena el formulario</p>
+                </div>
             </div>
-        </div>
+        </header>
+        <article class="form__content">
+            <div class="container bg-white">
+                <div class="row">
+                    <form id="survey-form">
+                        <label id="name-label" for="name"> Introduce tu Nombre 
+                            <input class="full-width" type="text" id="name" placeholder="Introduce tu nombre" required>
+                        </label>
+    
+                        <label id="email-label" for="email"> Introduce tu email 
+                            <input class="full-width" type="email" id="email" placeholder="Introduce tu correo" required>
+                        </label>
+            
+                        <label id="number-label" for="number"> Introduce tu edad 
+                            <input class="full-width" type="number" id="number" min="18" max="120" placeholder="Introduce tu edad" required>
+                        </label>
+            
+                        <label id="jornada" for="dropdown"> ¿Que tipo de jornada prefieres? 
+                            <select class="full-width" id="dropdown">Mañanas</option>
+                                <option>Tardes</option>
+                                <option>Completa</option>
+                            </select>
+                        </label>
+            
+                        <p>¿Tienes disponibilidad de incorporación inmediata?</p>
+            
+                        <label for="incorporacion_si">
+                            <input id="incorporacion_si" type="radio" name="incorporacion" value="si">Si 
+                        </label>
+            
+                        <label for="insocporacion_no">
+                            <input id="insocporacion_no" type="radio" name="incorporacion" value="no">No 
+                        </label>
+            
+                        <p>¿Que tecnologías conoces?</p>
+            
+                        <label for="html">
+                            <input id="html" value="html" type="checkbox" name="tecnologias"> HTML 
+                        </label>
+            
+                        <label for="css">
+                            <input id="css" value="html" type="checkbox" name="tecnologias"> CSS 
+                        </label>
+            
+                        <label for="js">
+                            <input id="js" value="html" type="checkbox" name="tecnologias"> JavaScript 
+                        </label>
+            
+                        <label for="otros">Otros: 
+                            <textarea class="full-width" id="otros" name="otros">
+                            </textarea>
+                        </label>
+            
+                        <input class="full-width" type="submit" id="submit">  
+                    </form>
+                </div>
+            </div>
+        </article>
     </section>
 </body>
 </html>
