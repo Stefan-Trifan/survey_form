@@ -1,0 +1,58 @@
+/* Reset CSS */
+/****************************************/
+*{
+    box-sizing: border-box;
+    min-width: 0;
+}
+
+body{
+    min-height: 100dvh;
+}
+
+/* Estilos generales */
+/****************************************/
+
+body{
+    font-size: 16px;
+}
+
+.container{
+    margin: auto;
+    max-width: 90%;
+}
+
+label, input{
+    display: block;
+}
+
+/* CLASES UTILITARIAS */
+/****************************************/
+
+.d-block{
+    display: block;
+}
+
+.d-inline{
+    display: inline;
+}
+
+.d-inline-block{
+    display: inline-block
+}
+
+.text-center{
+    text-align: center;
+}
+
+/* Estilos hero */
+/****************************************/
+
+
+/* Estilos formulario */
+/****************************************/
+
+
+/* Media Query */
+/****************************************/
+
+
