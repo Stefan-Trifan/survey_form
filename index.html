@@ -6,7 +6,7 @@
     <title>Registration Form</title>
     <link rel="stylesheet" href="styles.css" />
 </head>
-<body class="bg-griscla">
+<body class="bg-grey">
     <section class="form">
         <header class="form__header">
             <div class="container bg-white">
@@ -20,55 +20,69 @@
             <div class="container bg-white">
                 <div class="row">
                     <form id="survey-form">
-                        <label id="name-label" for="name"> Introduce tu Nombre 
-                            <input class="full-width" type="text" id="name" placeholder="Introduce tu nombre" required>
+                        <label class="full-width" id="name-label" for="name"> 
+                            <span>Nombre</span>  
+                            <input class="full-width" type="text" id="name" placeholder="Nombre*" required>
+                        </label>
+
+                        <label class="full-width" id="surname-label" for="surname"> 
+                            <span>Apellidos</span>  
+                            <input class="full-width" type="text" id="surname" placeholder="Apellidos*" required>
                         </label>
     
-                        <label id="email-label" for="email"> Introduce tu email 
-                            <input class="full-width" type="email" id="email" placeholder="Introduce tu correo" required>
+                        <label class="full-width" id="email-label" for="email"> 
+                            <span>Introduce tu email </span>
+                            <input class="full-width" type="email" id="email" placeholder="Email*" required>
+                        </label>
+
+                        <label class="full-width" id="phone-label" for="phone"> 
+                            <span>Número de teléfono </span>
+                            <input class="full-width" type="phone" id="phone" placeholder="Teléfono*" required>
                         </label>
             
-                        <label id="number-label" for="number"> Introduce tu edad 
-                            <input class="full-width" type="number" id="number" min="18" max="120" placeholder="Introduce tu edad" required>
+                        <label class="full-width" id="age-label" for="age"> 
+                            <span>Introduce tu edad </span>
+                            <input class="full-width" type="age" id="age" min="18" max="120" placeholder="Edad" required>
                         </label>
             
-                        <label id="jornada" for="dropdown"> ¿Que tipo de jornada prefieres? 
+                        <label class="full-width" id="jornada" for="dropdown"> 
+                            <span>¿Que tipo de jornada prefieres?</span>
                             <select class="full-width" id="dropdown">Mañanas</option>
                                 <option>Tardes</option>
                                 <option>Completa</option>
                             </select>
                         </label>
             
-                        <p>¿Tienes disponibilidad de incorporación inmediata?</p>
+                        <span>¿Tienes disponibilidad de incorporación inmediata?</span>
             
-                        <label for="incorporacion_si">
+                        <label class="full-width" for="incorporacion_si"> 
                             <input id="incorporacion_si" type="radio" name="incorporacion" value="si">Si 
                         </label>
             
-                        <label for="insocporacion_no">
+                        <label class="full-width" for="insocporacion_no">
                             <input id="insocporacion_no" type="radio" name="incorporacion" value="no">No 
                         </label>
             
-                        <p>¿Que tecnologías conoces?</p>
+                        <span>¿Que tecnologías conoces?</span>
             
-                        <label for="html">
+                        <label class="full-width" for="html">
                             <input id="html" value="html" type="checkbox" name="tecnologias"> HTML 
                         </label>
             
-                        <label for="css">
+                        <label class="full-width" for="css">
                             <input id="css" value="html" type="checkbox" name="tecnologias"> CSS 
                         </label>
             
-                        <label for="js">
+                        <label class="full-width" for="js">
                             <input id="js" value="html" type="checkbox" name="tecnologias"> JavaScript 
                         </label>
             
-                        <label for="otros">Otros: 
+                        <label class="full-width" for="otros">Otros: 
                             <textarea class="full-width" id="otros" name="otros">
                             </textarea>
                         </label>
             
-                        <input class="full-width" type="submit" id="submit">  
+                        <input class="full-width btn-submit" type="submit" id="submit">  
                     </form>
                 </div>
             </div>

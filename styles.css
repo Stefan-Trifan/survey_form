@@ -49,6 +49,23 @@ p {
     background-color: var(--grisoscuro);
 }
 
+.bg-black {
+    background-color: var(--black);
+}
+
+/* Botones
+/****************************************/
+
+.btn-submit{
+    background-color: var(--white);
+    color: var(--black);
+}
+
+.btn-submit:hover{
+    background-color: var(--black);
+    color: var(--white);
+}
+
 /* ESTILOS GENERALES */
 /****************************************/
 
@@ -60,10 +77,6 @@ p {
 
 /* CLASES UTILITARIAS */
 /****************************************/
-
-.d-inline {
-    display: inline;
-}
 
 .text-center {
     text-align: center;
@@ -81,10 +94,6 @@ p {
 /* ESTILOS FORMULARIO */
 /****************************************/
 
-.form label {
-    display: block;
-}
-
 .form textarea {
     resize: vertical;
     min-height: 50px;
@@ -92,15 +101,15 @@ p {
  /* form-sizing: content; Próximamente */
 }
 
-/* https://www.youtube.com/watch?v=8aryHZ8Z9WY&t=308s&ab_channel=midulive */
-
 /* MEDIA QUERY */
 /****************************************/
 
+@media screen and (min-width: 576px){
 
+}
+
+@media screen and (min-width: 576px){
+
+}
 
 /* BORRAR */
-
-.d-block {
-    display: block;
-}
