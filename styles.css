@@ -6,7 +6,7 @@
     --black: #000000;
 }
 
-/* Reset CSS */
+/** RESET CSS */
 /****************************************/
 * {
     box-sizing: border-box;
@@ -30,7 +30,7 @@ p {
     text-wrap: pretty
 }
 
-/* COLORES
+/** COLORES */
 /****************************************/
 
 .bg-white {
@@ -53,7 +53,7 @@ p {
     background-color: var(--black);
 }
 
-/* Botones
+/** BOTONES */
 /****************************************/
 
 .btn-submit{
@@ -66,7 +66,7 @@ p {
     color: var(--white);
 }
 
-/* ESTILOS GENERALES */
+/** ESTILOS GENERALES */
 /****************************************/
 
 .form .container {
@@ -75,7 +75,7 @@ p {
     padding: 0 20px;
 }
 
-/* CLASES UTILITARIAS */
+/** CLASES UTILITARIAS */
 /****************************************/
 
 .text-center {
@@ -87,11 +87,11 @@ p {
     width: 100%;
 }
 
-/* ESTILOS HERO */
+/** ESTILOS HERO */
 /****************************************/
 
 
-/* ESTILOS FORMULARIO */
+/** ESTILOS FORMULARIO */
 /****************************************/
 
 .form textarea {
@@ -101,7 +101,7 @@ p {
  /* form-sizing: content; Próximamente */
 }
 
-/* MEDIA QUERY */
+/** MEDIA QUERY */
 /****************************************/
 
 @media screen and (min-width: 576px){
@@ -112,4 +112,4 @@ p {
 
 }
 
-/* BORRAR */
+/** BORRAR */
