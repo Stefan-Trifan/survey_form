@@ -1,4 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap');
+
 :root {
+    --primary: #191726;
+    --secundary: #14768C;
     --white: #FFF;
     --grey: #f2f2f2;
     --griscla: #F7F7F7;
@@ -30,8 +34,16 @@ p {
     text-wrap: pretty
 }
 
-/** COLORES */
+/** COLORES FONDOS */
 /****************************************/
+
+.bg-primary{
+    background-color: var(--primary);
+}
+
+.bg-secundary{
+    background-color: var(--secundary);
+}
 
 .bg-white {
     background-color: var(--white);
@@ -53,6 +65,13 @@ p {
     background-color: var(--black);
 }
 
+/** COLORES TEXTOS */
+/****************************************/
+
+.text-white{
+    color: var(--white);;
+}
+
 /** BOTONES */
 /****************************************/
 
@@ -66,28 +85,69 @@ p {
     color: var(--white);
 }
 
-/** ESTILOS GENERALES */
-/****************************************/
-
-.form .container {
-    margin: auto;
-    max-width: 500px;
-    padding: 0 20px;
-}
-
 /** CLASES UTILITARIAS */
 /****************************************/
+
+/* Posicionamiento */
 
 .text-center {
     text-align: center;
 }
+
+/* Dimensiones */
 
 .full-width {
     display: block;
     width: 100%;
 }
 
-/** ESTILOS HERO */
+.p-1{
+    padding: 1rem;
+}
+
+.h-4{
+    height: 4rem;
+}
+
+.h-100vh{
+    height: 100vh;
+}
+
+/* Flex */
+
+.d-flex{
+    display: flex;
+}
+
+.flex-column{
+    flex-direction: column;
+}
+
+.justify-content-center{
+    justify-content: center;
+}
+
+.align-items-center{
+    align-items: center;
+}
+
+.flex-grow-1{
+    flex-grow: 1;
+}
+
+/** ESTILOS GENERALES */
+/****************************************/
+
+.form *{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+
+.form .container {
+    max-width: 500px;
+}
+
+/** ESTILOS HEADER */
 /****************************************/
 
 
