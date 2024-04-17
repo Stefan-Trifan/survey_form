@@ -12,81 +12,63 @@
             <div class="h-4"></div>
         </header>
         <article class="form__content flex-grow-1 d-flex flex-column justify-content-center align-items-center">
-            <div class="form__title">
-                <div class="container m-auto d-flex justify-content-center flex-column">
-                    <div class="row text-center">
-                        <h1 id="title">Formulario de Solicitud de Empleo</h1>
-                        <p id="description">Rellena el formulario</p>
+            <div class="container-sm w-100 pt-2 py-sm-2 d-flex flex-column gap-1">
+                <div class="form__title">
+                    <div class="m-auto d-flex justify-content-center flex-column">
+                        <div class="row text-center">
+                            <h1 id="title">Formulario de Solicitud de Empleo</h1>
+                            <p id="description">Rellena el formulario</p>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="container m-auto p-1 bg-white">
-                <div class="row">
-                    <form id="survey-form">
-                        <label class="full-width" id="name-label" for="name"> 
-                            <span>Nombre</span>  
-                            <input class="full-width" type="text" id="name" placeholder="Nombre*" required>
-                        </label>
-
-                        <label class="full-width" id="surname-label" for="surname"> 
-                            <span>Apellidos</span>  
-                            <input class="full-width" type="text" id="surname" placeholder="Apellidos*" required>
-                        </label>
-    
-                        <label class="full-width" id="email-label" for="email"> 
-                            <span>Introduce tu email </span>
-                            <input class="full-width" type="email" id="email" placeholder="Email*" required>
-                        </label>
-
-                        <label class="full-width" id="phone-label" for="phone"> 
-                            <span>Número de teléfono </span>
-                            <input class="full-width" type="phone" id="phone" placeholder="Teléfono*" required>
-                        </label>
-            
-                        <label class="full-width" id="number-label" for="number"> 
-                            <span>Introduce tu edad (opcional)</span>
-                            <input class="full-width" type="number" id="number" min="18" max="120" placeholder="Edad" required>
-                        </label>
-            
-                        <label class="full-width" id="jornada" for="dropdown"> 
-                            <span>¿Que tipo de jornada prefieres?</span>
-                            <select class="full-width" id="dropdown">Mañanas</option>
-                                <option>Tardes</option>
-                                <option>Completa</option>
-                            </select>
-                        </label>
-            
-                        <span>¿Tienes disponibilidad de incorporación inmediata?</span>
-            
-                        <label class="full-width" for="incorporacion_si"> 
-                            <input id="incorporacion_si" type="radio" name="incorporacion" value="si">Si 
-                        </label>
-            
-                        <label class="full-width" for="insocporacion_no">
-                            <input id="insocporacion_no" type="radio" name="incorporacion" value="no">No 
-                        </label>
-            
-                        <span>¿Que tecnologías conoces?</span>
-            
-                        <label class="full-width" for="html">
-                            <input id="html" value="html" type="checkbox" name="tecnologias"> HTML 
-                        </label>
-            
-                        <label class="full-width" for="css">
-                            <input id="css" value="html" type="checkbox" name="tecnologias"> CSS 
-                        </label>
-            
-                        <label class="full-width" for="js">
-                            <input id="js" value="html" type="checkbox" name="tecnologias"> JavaScript 
-                        </label>
-            
-                        <label class="full-width" for="otros">Otros: 
-                            <textarea class="full-width" id="otros" name="otros">
-                            </textarea>
-                        </label>
-            
-                        <input class="full-width btn-submit" type="submit" id="submit" value="Enviar">
-                    </form>
+                <div class="bg-white bd-sm-grisoscuro">
+                    <div class="p-1">
+                        <form id="survey-form">
+                            <label class="d-block w-100 mb-4px" id="name-label" for="name">
+                                <span>Nombre</span>
+                                <input class="d-block w-100" type="text" id="name" placeholder="Nombre*" required>
+                            </label>
+                            <label class="d-block w-100 mb-4px" id="surname-label" for="surname">
+                                <span>Apellidos</span>
+                                <input class="d-block w-100" type="text" id="surname" placeholder="Apellidos*" required>
+                            </label>
+                            <label class="d-block w-100 mb-4px" id="email-label" for="email">
+                                <span>Introduce tu email </span>
+                                <input class="d-block w-100" type="email" id="email" placeholder="Email*" required>
+                            </label>
+                            <label class="d-block w-100 mb-4px" id="phone-label" for="phone">
+                                <span>Número de teléfono </span>
+                                <input class="d-block w-100" type="phone" id="phone" placeholder="Teléfono*" required>
+                            </label>
+                            <label class="d-block w-100 mb-4px" id="number-label" for="number">
+                                <span>Introduce tu edad (opcional)</span>
+                                <input class="d-block w-100" type="number" id="number" min="18" max="120" placeholder="Edad" required>
+                            </label>
+                            <label class="d-block w-100 mb-4px" id="jornada" for="dropdown">
+                                <span>¿Que tipo de jornada prefieres?</span>
+                                <select class="d-block w-100" id="dropdown">Mañanas</option>
+                                    <option>Tardes</option>
+                                    <option>Completa</option>
+                                </select>
+                            </label>
+                            <span>¿Tienes disponibilidad de incorporación inmediata?</span>
+                            <label class="d-block w-100" for="incorporacion_si">
+                                <input id="incorporacion_si" type="radio" name="incorporacion" value="si">Si </label>
+                            <label class="d-block w-100 mb-4px" for="insocporacion_no">
+                                <input id="insocporacion_no" type="radio" name="incorporacion" value="no">No </label>
+                            <span>¿Que tecnologías conoces?</span>
+                            <label class="d-block w-100" for="html">
+                                <input id="html" value="html" type="checkbox" name="tecnologias"> HTML </label>
+                            <label class="d-block w-100" for="css">
+                                <input id="css" value="html" type="checkbox" name="tecnologias"> CSS </label>
+                            <label class="d-block w-100 mb-4px" for="js">
+                                <input id="js" value="html" type="checkbox" name="tecnologias"> JavaScript </label>
+                            <label class="d-block w-100 pb-1" for="otros">Otros: <textarea class="d-block w-100" id="otros" name="otros">
+                                </textarea>
+                            </label>
+                            <input class="d-block w-100 btn-submit" type="submit" id="submit" value="Enviar">
+                        </form>
+                    </div>
                 </div>
             </div>
         </article>
