@@ -79,7 +79,7 @@ p {
 .btn-submit{
     background-color: var(--secundary);
     color: var(--white);
-    padding: 4px 0;
+    padding: 8px 0;
 }
 
 .btn-submit:hover{
@@ -162,7 +162,7 @@ p {
     flex-grow: 1;
 }
 
-/** ESTILOS GENERALES */
+/** ESTILOS GENERALES FORMULARIO */
 /****************************************/
 
 .form *{
@@ -170,19 +170,20 @@ p {
     font-size: 16px;
 }
 
-/** ESTILOS HEADER */
-/****************************************/
-
-
-/** ESTILOS FORMULARIO */
-/****************************************/
-
 /* Bordes */
 
 .form input,
 .form select, 
 .form textarea{
     border: 1px solid var(--grisoscuro);
+}
+
+.form input[type=radio]{
+    margin-right: 4px;
+}
+
+.form input[type=submit]{
+    border:0px;
 }
 
 /* Textarea */
