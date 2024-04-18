@@ -166,7 +166,8 @@ p {
 /****************************************/
 
 .form *{
-    font-family: 'Poppins', sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+    'Helvetica Neue', Arial, sans-serif;
     font-size: 16px;
 }
 
@@ -239,5 +240,3 @@ p {
 @media screen and (min-width: 1400px){
 
 }
-
-/** BORRAR */
