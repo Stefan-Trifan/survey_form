@@ -1,0 +1,15 @@
+{
+  "name": "survey_form",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "limpiarcss": "purgecss --css ./styles.css --content ./index.html --output ./dist/css/"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "purgecss": "^6.0.0"
+  }
+}

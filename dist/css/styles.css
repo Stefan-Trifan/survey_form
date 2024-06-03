@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap');
+
+:root {
+    --primary: #191726;
+    --secundary: #14768C;
+    --white: #FFF;
+    --grey: #f2f2f2;
+    --griscla: #F7F7F7;
+    --grisoscuro: #d4d4d4;
+    --black: #000000;
+}
+
+/** RESET CSS */
+/****************************************/
+* {
+    box-sizing: border-box;
+    min-width: 0;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100dvh;
+}
+
+h1 {
+    text-wrap: balance;
+}
+
+p {
+    text-wrap: pretty
+}
+
+/** COLORES */
+/****************************************/
+
+/* Fondos */
+
+.bg-primary{
+    background-color: var(--primary);
+}
+
+.bg-white {
+    background-color: var(--white);
+}
+
+.bg-grey {
+    background-color: var(--grey);
+}
+
+/* Textos */
+
+/** BOTONES */
+/****************************************/
+
+.btn-submit{
+    background-color: var(--secundary);
+    color: var(--white);
+    padding: 8px 0;
+}
+
+.btn-submit:hover{
+    background-color: var(--primary);
+    color: var(--white);
+}
+
+/** CLASES UTILITARIAS */
+/****************************************
+
+/* Box Model */
+
+.d-block{
+    display: block;
+}
+
+/* Posicionamiento */
+
+.text-center {
+    text-align: center;
+}
+
+/* Dimensiones */
+
+.w-100{
+    width: 100%;
+}
+
+.h-100vh{
+    height: 100vh;
+}
+
+.h-4{
+    height: 4rem;
+}
+
+.p-1{
+    padding: 1rem;
+}
+
+.mb-4px{
+    padding-bottom: 4px;
+}
+
+.pb-1{
+    padding-bottom: 1rem;
+}
+
+.pt-2{
+    padding-top: 1rem;
+}
+
+.gap-1{
+    gap: 1rem;
+}
+
+/* Flex */
+
+.d-flex{
+    display: flex;
+}
+
+.flex-column{
+    flex-direction: column;
+}
+
+.justify-content-center{
+    justify-content: center;
+}
+
+.align-items-center{
+    align-items: center;
+}
+
+.flex-grow-1{
+    flex-grow: 1;
+}
+
+/** ESTILOS GENERALES FORMULARIO */
+/****************************************/
+
+.form *{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+    'Helvetica Neue', Arial, sans-serif;
+    font-size: 16px;
+}
+
+/* Bordes */
+
+.form input,
+.form select, 
+.form textarea{
+    border: 1px solid var(--grisoscuro);
+}
+
+.form input[type=radio]{
+    margin-right: 4px;
+}
+
+.form input[type=submit]{
+    border:0px;
+}
+
+/* Textarea */
+
+.form textarea {
+    resize: vertical;
+    min-height: 50px;
+    max-height: 150px;
+ /* form-sizing: content; Próximamente */
+}
+
+/* Espaciado */
+
+.form input:not(.form input[type=submit]){
+    padding: 2px 4px;
+}
+
+/** MEDIA QUERY */
+/****************************************/
+
+@media screen and (min-width: 576px){
+    /** BORDES */
+    /****************************************/
+
+    .bd-sm-grisoscuro{
+        border: 1px solid var(--grisoscuro);
+    }
+
+    /** CONTAINERS */
+    /****************************************/
+
+    .container-sm {
+        max-width: 540px;
+    }
+
+    .py-sm-2{
+        padding: 2rem 0;
+    }
+}
+
+@media screen and (min-width: 768px){
+
+}
+
+@media screen and (min-width: 992px){
+
+}
+
+@media screen and (min-width: 1200px){
+
+}
+
+@media screen and (min-width: 1400px){
+
+}
